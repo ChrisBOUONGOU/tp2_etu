@@ -29,6 +29,7 @@ div#aide-icon:hover #section-aide {
 
 /* Contenu principal */
 
+/**
 div#section-aide {
     display: none;
 }
@@ -46,6 +47,9 @@ div#aide-icon:hover div#section-aide {
     border: blueviolet 2px solid;
     overflow: hidden;
 }
+
+
+*/
 
 /* Boite aparté avec les listes */
 
