@@ -18,8 +18,17 @@ div#section-aide {
 
 div#aide-icon:hover div#section-aide {
     display: block;
+    background-color: khaki;
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    padding: 30px;
+    opacity: 95%;
+    border: blueviolet 2px solid;
+    overflow: hidden;
 }
-
 
 /* Boite aparté avec les listes */
 
