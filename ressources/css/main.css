@@ -12,6 +12,13 @@ body{
 
 /* Contenu principal */
 
+div#section-aide {
+    display: none;
+}
+
+div#aide-icon:hover div#section-aide {
+    display: block;
+}
 
 
 /* Boite aparté avec les listes */
