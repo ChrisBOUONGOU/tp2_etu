@@ -4,9 +4,30 @@
 /* Divers */
 body{
   background-image: url("../Images/fond.jpeg");
+  background-size: 25%;
+  background-repeat: repeat;
+  
 }
 
 /* Entête avec menu */
+header{
+    background-color: khaki;
+    border: 3px 6px  blueviolet;
+}
+
+#section-aide{
+    display: none;
+}
+
+div#aide-icon:hover #section-aide {
+   
+    background-color: khaki;
+    border: 2px solid blueviolet;
+    padding: 30px;
+    opacity: 95%; 
+    display: block;
+}
+
 
 
 /* Contenu principal */
