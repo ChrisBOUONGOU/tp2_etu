@@ -54,7 +54,13 @@ div#aide-icon:hover #section-aide {
 
 /* Contenu principal */
 
+#contenu-principal {
+    margin-top: 300px;
+}
 
+aside {
+    float: left;
+}
 
 /* Boite aparté avec les listes */
 
