@@ -9,12 +9,16 @@ body {
 
 /* Entête avec menu */
 
-/*
 header {
     background-color: khaki;
-    border: 3px 6px blueviolet;
+    border-top: blueviolet solid 3px;
+    border-bottom: blueviolet solid 6px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
-
+/*
 #section-aide {
     display: none;
 }
