@@ -4,9 +4,12 @@
 /* Divers */
 body {
     background-image: url("../Images/fond.jpeg");
+    background-size: 25%;
 }
 
 /* Entête avec menu */
+
+/*
 header {
     background-color: khaki;
     border: 3px 6px blueviolet;
@@ -24,11 +27,10 @@ div#aide-icon:hover #section-aide {
     opacity: 95%;
     display: block;
 }
-
+*/
 
 /* Contenu principal */
 
-/**
 div#section-aide {
     display: none;
 }
@@ -46,9 +48,6 @@ div#aide-icon:hover div#section-aide {
     border: blueviolet 2px solid;
     overflow: hidden;
 }
-
-
-*/
 
 /* Boite aparté avec les listes */
 
