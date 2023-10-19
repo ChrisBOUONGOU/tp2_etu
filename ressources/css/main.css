@@ -2,29 +2,28 @@
 /* Chris Boukongou */
 
 /* Divers */
-body{
-  background-image: url("../Images/fond.jpeg");
+body {
+    background-image: url("../Images/fond.jpeg");
 }
 
 /* Entête avec menu */
-header{
+header {
     background-color: khaki;
-    border: 3px 6px  blueviolet;
+    border: 3px 6px blueviolet;
 }
 
-#section-aide{
+#section-aide {
     display: none;
 }
 
 div#aide-icon:hover #section-aide {
-   
+
     background-color: khaki;
     border: 2px solid blueviolet;
     padding: 30px;
-    opacity: 95%; 
+    opacity: 95%;
     display: block;
 }
-
 
 
 /* Contenu principal */
