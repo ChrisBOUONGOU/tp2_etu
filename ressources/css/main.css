@@ -2,34 +2,23 @@
 /* Chris Boukongou */
 
 /* Divers */
-body{
-  background-image: url("../Images/fond.jpeg");
+body {
+    background-image: url("../Images/fond.jpeg");
+    background-size: 25%;
 }
 
 /* Entête avec menu */
-header{
+
+header {
     background-color: khaki;
-    border: 3px 6px  blueviolet;
+    border-top: blueviolet solid 3px;
+    border-bottom: blueviolet solid 6px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
-#section-aide{
-    display: none;
-}
-
-div#aide-icon:hover #section-aide {
-   
-    background-color: khaki;
-    border: 2px solid blueviolet;
-    padding: 30px;
-    opacity: 95%; 
-    display: block;
-}
-
-
-
-/* Contenu principal */
-
-/**
 div#section-aide {
     display: none;
 }
@@ -48,8 +37,30 @@ div#aide-icon:hover div#section-aide {
     overflow: hidden;
 }
 
+/*
+#section-aide {
+    display: none;
+}
 
+div#aide-icon:hover #section-aide {
+
+    background-color: khaki;
+    border: 2px solid blueviolet;
+    padding: 30px;
+    opacity: 95%;
+    display: block;
+}
 */
+
+/* Contenu principal */
+
+#contenu-principal {
+    margin-top: 300px;
+}
+
+aside {
+    float: left;
+}
 
 /* Boite aparté avec les listes */
 
