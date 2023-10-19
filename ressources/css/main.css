@@ -18,22 +18,6 @@ header {
     right: 0;
     top: 0;
 }
-/*
-#section-aide {
-    display: none;
-}
-
-div#aide-icon:hover #section-aide {
-
-    background-color: khaki;
-    border: 2px solid blueviolet;
-    padding: 30px;
-    opacity: 95%;
-    display: block;
-}
-*/
-
-/* Contenu principal */
 
 div#section-aide {
     display: none;
@@ -52,6 +36,25 @@ div#aide-icon:hover div#section-aide {
     border: blueviolet 2px solid;
     overflow: hidden;
 }
+
+/*
+#section-aide {
+    display: none;
+}
+
+div#aide-icon:hover #section-aide {
+
+    background-color: khaki;
+    border: 2px solid blueviolet;
+    padding: 30px;
+    opacity: 95%;
+    display: block;
+}
+*/
+
+/* Contenu principal */
+
+
 
 /* Boite aparté avec les listes */
 
