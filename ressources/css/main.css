@@ -89,6 +89,11 @@ div#aide-icon:hover #section-aide {
     top: 130px;
 }
 
+#contenu-principal h1 + p:first-letter, #contenu-principal img + p:first-letter {
+    font-size: 44px;
+    float: left;
+}
+
 aside {
     float: left;
 }
