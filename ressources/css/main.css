@@ -96,6 +96,14 @@ div#aide-icon:hover #section-aide {
     color: brown;
 }
 
+#contenu-principal img {
+    float: left;
+    height: 100px;
+    margin: 15px;
+    border: black 1px solid;
+    outline: brown 5px dotted;
+}
+
 aside {
     float: left;
 }
