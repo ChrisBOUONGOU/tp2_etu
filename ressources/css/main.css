@@ -22,6 +22,15 @@ header {
     top: 0;
 }
 
+header img {
+    float: left;
+    width: 150px;
+}
+
+#menu {
+    float: left;
+}
+
 div#section-aide {
     display: none;
 }
