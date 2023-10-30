@@ -106,6 +106,14 @@ div#aide-icon:hover #section-aide {
 
 aside {
     float: left;
+    width: 250px;
+    height: 800px;
+    border-radius: 20px;
+    background-color: brown;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    border: grey 3px solid;
 }
 
 /* Boite aparté avec les listes */
