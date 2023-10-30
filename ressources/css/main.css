@@ -87,6 +87,7 @@ div#aide-icon:hover #section-aide {
     color: brown;
     position: sticky;
     top: 130px;
+    z-index: -1;
 }
 
 #contenu-principal h1 + p:first-letter, #contenu-principal img + p:first-letter {
