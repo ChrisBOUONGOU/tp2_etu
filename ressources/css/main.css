@@ -92,6 +92,8 @@ div#aide-icon:hover #section-aide {
 #contenu-principal h1 + p:first-letter, #contenu-principal img + p:first-letter {
     font-size: 44px;
     float: left;
+    margin-right: 5px;
+    color: brown;
 }
 
 aside {
