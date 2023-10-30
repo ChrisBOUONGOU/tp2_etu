@@ -31,6 +31,10 @@ header img {
     float: left;
 }
 
+#aide-icon {
+    display: inline;
+}
+
 div#section-aide {
     display: none;
 }
