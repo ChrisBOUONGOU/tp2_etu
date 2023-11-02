@@ -18,8 +18,8 @@ header {
     border-bottom: blueviolet solid 6px;
     position: fixed;
     left: 0;
-    right: 0;
     top: 0;
+    width: 100%;
 }
 
 header img {
@@ -27,13 +27,48 @@ header img {
     width: 150px;
 }
 
-#menu {
+
+#menu  ul{
     float: left;
-    font-family: Courier;
+    font-family: 'Courier New';
+    width: 65%;  
+    border-left: 5px;
+    border-top: 5px;
 }
 
-#aide-icon {
+#menu ul li{
     display: inline;
+    height: 40px;
+    margin: 20px;
+    font-family: 'Times New Roman';
+    text-transform : uppercase;
+    font-size: large;
+}
+
+#menu ul li a{
+    
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+#menu ul li a:hover{
+    border: 2px brown solid;
+    box-shadow: 5px 5px 30px brown;
+}
+
+#menu #aide-icon {
+    display: inline;
+   
+    padding: 5px;
+    margin: 30px;
+    width: 50px;
+}
+
+#aide-icon:hover{
+    border: 2px brown solid;
+    box-shadow: 5px 5px 30px brown;
+    
 }
 
 div#section-aide {
@@ -87,7 +122,7 @@ div#aide-icon:hover #section-aide {
     color: brown;
     position: sticky;
     top: 130px;
-    z-index: -1;
+    z-index: 1;
 }
 
 #contenu-principal h1 + p:first-letter, #contenu-principal img + p:first-letter {
