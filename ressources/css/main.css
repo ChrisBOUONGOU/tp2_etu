@@ -71,6 +71,29 @@ header img {
     
 }
 
+header img {
+    float: left;
+    width: 150px;
+}
+
+header div ul {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    width: 65%;
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline;
+    height: 40px;
+    margin: 20px;
+}
+
+div#menu {
+    font-family: "Courier New";
+}
+
 div#section-aide {
     display: none;
 }
@@ -87,6 +110,15 @@ div#aide-icon:hover div#section-aide {
     opacity: 95%;
     border: blueviolet 2px solid;
     overflow: hidden;
+}
+
+header {
+    z-index: 1;
+}
+
+div#aide-icon {
+    display: inline;
+
 }
 
 /*
@@ -122,7 +154,6 @@ div#aide-icon:hover #section-aide {
     color: brown;
     position: sticky;
     top: 130px;
-    z-index: 1;
 }
 
 #contenu-principal h1 + p:first-letter, #contenu-principal img + p:first-letter {
